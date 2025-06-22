@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	_ "github.com/swaggo/files" // Swagger files needed for embedding
-	httpSwagger "github.com/swaggo/http-swagger"
+	httpSwagger "github.com/swaggo/http-swagger/v2"
 )
 
 // SwaggerHandler returns a handler that serves the Swagger UI
